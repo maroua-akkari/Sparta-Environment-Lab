@@ -3,11 +3,10 @@
 
 A development environment was set up to house the tools needed to connect a database to an app and run it on a web server.
 
-This repository contains a *vagrant file* which allows us to build a virtual machine to run an app, and includes the IP address as well as paths to the provision and app files.
+This repository contains a *vagrant file* which allows us to build a virtual machine to run an app, and includes the IP address as well as paths to the provision and app files. This file also allows for the *app* and the *database* to run together on **one** server but different ports
 
-This file also has commands to direct the default nginx port to the index page of this app.  
+This repo also contains a *provision* file which has instructions to install nginx (runs webservers), python, nodeJS and pm2 (acts as a reloader). This file also has commands to direct the default nginx port to the index page of this app.  
 
-This repo also contains a *provision* file which has instructions to install nginx (runs webservers), nodeJS and pm2 (acts as a reloader).
 
 To run this app:
 
