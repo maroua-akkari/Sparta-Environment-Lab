@@ -19,8 +19,10 @@ To run this app:
 
 4. Go into the directory containing the app.js file by running the command `cd /vagrant/app`
 
+5. Run the command `node app.js`
+
 Now your app is ready to open:
 
 Open up a web browser e.g. Chrome and enter http://development.local to see the app work.
 
-3. To end this session run the command `vagrant destroy` in the terminal.
+6. To end this session run the command `vagrant destroy` in the terminal.
