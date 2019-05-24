@@ -14,7 +14,7 @@ To run this app:
 
 2. Run the command `vagrant up`.
 
-3. Run the command `vagrant ssh`.
+3. Run the command `vagrant ssh app`.
 
 4. Go into the directory containing the app.js file by running the command `cd /vagrant/app`
 
